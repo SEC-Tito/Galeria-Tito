@@ -1,27 +1,26 @@
-#container {
-  text-align: center;
+.Titulo{
+  background-image: linear-gradient(to bottom, #f080ff 0%, #4dacff 100%, #051b72 100%);
+}
+.title{
+  color: black;
+}
+.caja{
+  display : flex;
+  flex-direction : row;
+}
+.clock {
+  display: flex;
+  justify-content: right;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  
+}
+.textotitulo{
+  font-size: 30px
+}
+.hijo{
+  background-image: linear-gradient(to bottom, #f080ff 0%, #4dacff 100%, #051b72 100%);
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
+.padre{
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
 }
